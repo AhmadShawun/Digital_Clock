@@ -20,6 +20,8 @@ clock.title('Digital Clock') # Title
 clock.geometry('800x600') #for window size by pixels
 clock.config(bg='#064534') # Background color
 
+# ******************Time Started***********************
+
 lab_hr = Label(clock,text='00',font=('Ga Maamli',60,'bold'), bg='#b50b41',fg='white') # for hour (class,)
 lab_hr.place(x=35,y=35,height=120,width=120)
 
@@ -43,6 +45,24 @@ lab_am.place(x=650,y=35,height=120,width=120)
 
 lab_am_text = Label(clock,text='Am/Pm',font=('Ga Maamli',24,'bold'), bg='#b50b41',fg='white',) # for hour (class,)
 lab_am_text.place(x=650,y=175,height=30,width=120)
+
+# ******************Date Started***********************
+
+lab_date = Label(clock,text='00',font=('Ga Maamli',60,'bold'), bg='#b50b41',fg='white') # for hour (class,)
+lab_date.place(x=35,y=35,height=120,width=120)
+
+lab_date_text = Label(clock,text='Date',font=('Ga Maamli',24,'bold'), bg='#b50b41',fg='white') # for hour (class,)
+lab_date_text.place(x=35,y=275,height=30,width=120)
+
+
+
+
+
+
+
+
+
+
 
 dateTime()
 
